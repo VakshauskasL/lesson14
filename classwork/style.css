@@ -1,0 +1,62 @@
+.animate{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    background: green;
+    font-size: 24px;
+    animation:shadow 2s infinite ease-in-out 3s;/*можно применять не одну анимацию, задаем через запятую и запустятся одновременнo может быть со значение -*/
+    animation-name: shadow; /*название*/
+    animation-duration: 2s; /*время выполнения*/
+    animation-timing-function: ease-in-out;/*кубик*/
+    animation-iteration-count: infinite;
+    animation-direction: normal;/*направление*/
+    /*reversе-обратное направление
+    alternate-нечетная в обратном, четная в прямом}
+    alternate-reverse-наоборот}
+    */
+    animation-play-state: running;
+    /*paused-
+    */
+    animation-delay: 0s;/*задержка перед анимацией*/
+    animation-fill-mode: none;
+    /*forward* остановится на момент окончания анимации
+    backwards-вернет первоначальное состояние первого кадра
+    both-анимация еще не началась оставляет его в кадре/идеально останавливает анимацию, работают оба свойства*/
+    
+}
+@keyframes shadow{ /*описание анимации*/
+from{/* 0% */
+    text-shadow: 0 0 3px black;
+    top:0;
+
+}
+25%{
+
+}
+
+50%{
+    text-shadow: 0 0 30px black;/*25% или 75% чтобы была уникальная анимация,более плавная.*/
+    top:300px;
+}
+75%{
+
+}
+
+to{/*100%*/
+text-shadow: 0 0 3px black;
+top:0;
+
+}
+
+}
+
+.flex{
+    display:flex;/*устроено для выстраивания в строку*/
+    flex-wrap: wrap;/*перенос на новую строку*/
+}
+.flex div{
+border:3px solid #000;/*flex-grow распределяет равномерно
+                        flex-shrink-отрицательное свойство flex-grow
+                        flex-basis-уступает ширину(при уменьшении экрана) когда задано flex-shrink*/
+
+}
