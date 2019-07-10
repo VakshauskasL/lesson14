@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet"href="style.css">
+    <title>Buster Buld</title>
+    <link rel="stylesheet"href="css/normalize.css">
+    <link rel="stylesheet"href="css/style.css">
+    <link rel="stylesheet"href="css/media.css">
 </head>
 <body>
     <header id="header">
@@ -16,23 +18,24 @@
                 <div class="header-logo-text">
                     <div class="headline-logo">DMT</div>
                     <div class="subtitle-logo">Design Meets Tech</div> 
-                    <div class="header-logo-search">
-                        <a href="#"><img src="img/search.png" alt=""></a></div>
                 </div>
+                    <div class="header-logo-search">
+                        <a href="#"><img src="img/search.png" alt=""></a>
+                    </div>
         </div>
     </header>
     <section class="content-top">
         <div class="wrapper">
                 <div class="home-container">
                     <a href="#"><img src="img/slide-1.jpg"alt=""></a>
-                <p class="-home-subtitle">home</p>
-                <a class="home-title">Buster<br>Bulb</a>
-                <p class="home-container-text">
+                <div class="home-subtitle">home</div>
+                <h1 class="home-title">Buster<br>Bulb</h1>
+                <div class="home-container-text">
                     The first designer<br>
                     LED bulb, finished<br> 
                     in gold glass.
-                </p>
-                <a class="Read more"><a href="#">Read more</a>
+                </div>
+                <button class="home-container-button"><a href="#">Read more</a></button>
             </div>
         </div>
 </section>
@@ -40,48 +43,52 @@
             <div class="wrapper">
                 <div class="content-title-left">
                     <a href="#"><img src="img/slide-2.jpg"alt=""></a>
-                    <p class="content-subtitle">accessories</p>
-                    <a class="peak-title">Peak</a>
+                    <div class="content-subtitle">accessories</div>
+                    <h2 class="peak-title">Peak</h2>
                     <p class="content-text-left">
                         A playful pouch<br>
-                        with a trick up its<br>
-                        sleeve</p>
-                <a class="Read more"href="#">Read more</a>
-            </div>
+                        with a trick up its sleeve</p>
+                <button class="content-container-button"href="#">Read more</a></button>
+             </div>
 
             <div class="content-right">
-                <h1>Good Things</h1><br>
-                <p class="content-right-text">...<br>
-                    come to those who sign up<br>
+                <h2 class="content-title-right">Good Things</h2><br>
+                <div class="threepoint">...</div>
+                <p class="content-text-right">come to those who sign up<br>
                     for our newsletter.</p>
-                    <input type="email"name="email"readonly value="Your email">
-                    <input type="button"value="Subscribe">
+                    <div class="content-right-email">
+                    <input type="email"value="Your email">
+                    </div>
+                    <div class="content-right-subscribe">
+                    <a href="#">Subscribe</a>
+                    </div>
                 <p class="content-right-text-under">We respect your privacy and we won’t<br>
                     share your information.</p>
+             </div>
             </div>
-        </div>
     </section>
-        <section class="cameras">
+        <section class="multimedia">
             <div class="wrapper">
                 <div class="cameras-Leica-M">
                     <a href="#"><img src="img/slide-3.png"alt=""></a>
-                    <p class="Leica-M-title">Leica M</p>
-                    <a class="review-button"href="#">Review</a>
+                    <p class="subtitle-cameras">cameras</p>
+                    <h3 class="Leica-M-title">Leica M</h3>
+                    <button class="review-button"><a href="#">Review</a></button>
                 </div>
-                <div class="sound">
+                <div class="phone-on-stand">
                     <a href="#"><img src="img/slide-4.png"alt=""></a>
-                    <p class="subtitle">sound</p>
-                    <a class="trobla-amplifier-title">
+                    <p class="subtitle-phone">sound</p>
+                    <h3 class="trobla-amplifier-title">
                         Trobla<br>
-                        Amplifier</a>
-                        <a class="review-button"href="#">Review</a>
+                        Amplifier</h3>
+                        <button class="review-button-two"><a href="#">Review</a></button>
                 </div>
                 <div class="cameras-leica-dlux">
                     <a href="#"><img src="img/slide-5.png"alt=""></a>
-                    <p class="subtitle">cameras</p>
-                    <a class="leica-dlux-title">Leica D-Lux</a>
+                    <p class="subtitle-cameras-two">cameras</p>
+                    <h3 class="leica-dlux-title">Leica D-Lux</h3>
                         <p class="leica-dlux-text">Limited-edition Dlesel<br>collaboration</p>
-                        <a class="read-more-button"href="#">Read-more</a>
+                        <button class="read-more-button"><a href="#">Read more</a></button>
                 </div>
             </div>
         </section>
@@ -91,10 +98,10 @@
                     <p>Copyright DMT</p>
                 </section>
                 <section class="social-media">
-                    <div class="facebook">
+                    <div class="facebook-media">
                         <a href="#"><img src="img/facebook.png"alt=""></a>
                     </div>
-                    <div class="twitter">
+                    <div class="twitter-media">
                         <a href="#"><img src="img/twitter.png"alt=""></a>
                     </div>
                 </section>
