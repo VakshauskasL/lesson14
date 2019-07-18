@@ -1,0 +1,114 @@
+
+@media (max-width: 844px){
+    .phone-on-stand{
+        background:url('img/slide-4.png') center no-repeat;
+    }
+
+    .cameras-leica-dlux{
+        background:url('img/slide-5.png') center no-repeat;
+    }
+}
+
+@media (max-width: 768px){
+    #header{
+        padding: 35px 0;
+    }
+    
+    .header-menu{
+        margin-left: 5px
+    }
+
+    .header-search{
+        margin-right: 5px;
+    }
+
+    .content-top{
+        margin: 5px;
+        padding: 20px 0 20px 20px;
+    }
+
+    .content-title{
+        font-size: 48px;
+    }
+
+    .content-name{
+        font-size:24px;
+    }
+
+    .content-text{
+        margin: 5px;
+        padding: 18px 0 20px 20px;
+    }
+
+    .content-left-title{
+        font-size: 32px;
+    }
+
+    .content-left-text{
+        font-size: 16px;
+    }
+
+    .content-right{
+        padding-top: 40px;
+        margin: 5px;
+        padding-bottom: 30px;
+    }
+
+    .content-right-title{
+        font-size: 32px;
+    }
+
+    .content-right-text{
+        font-size: 16px;
+    }
+
+    .cameras-Leica-M{
+        margin: 5px;
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+
+    .phone-on-stand{
+        margin: 5px;
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    .cameras-leica-dlux{
+        margin: 5px;
+        padding: 18px 0 20px 20px;
+    }
+
+    .leica-dlux-title{
+        font-size: 16px;
+    }
+
+    .email{
+        width: 200px;
+    }
+
+    .submit{
+        width: 206px;
+    }
+
+    #footer{
+        height: 65px;
+        padding-top: 15px;
+    }
+
+    .copyright{
+        margin-left: 5px;
+    }
+
+    .social{
+        margin-right: 5px;
+        margin-bottom: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .content-left-name, .subtitle-cameras, .subtitle-phone , .subtitle-cameras-two{
+        font-size: 24px;
+    }
+}

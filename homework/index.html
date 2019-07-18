@@ -5,108 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Buster Buld</title>
-    <link rel="stylesheet"href="css/normalize.css">
-    <link rel="stylesheet"href="css/style.css">
-    <link rel="stylesheet"href="css/media.css">
+    <link rel="stylesheet"href="normalize.css">
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet"href="media.css">
 </head>
 <body>
     <header id="header">
         <div class="wrapper">
-            <div class="header-logo-menu">
-            <a href="#"><img src="img/menu.png"alt=""></a>
+            <div class="header-menu">
+               <a href="#" class="menu-button">Menu</a>
             </div>
-                <div class="header-logo-text">
-                    <div class="headline-logo">DMT</div>
-                    <div class="subtitle-logo">Design Meets Tech</div> 
-                </div>
-                    <div class="header-logo-search">
-                        <a href="#"><img src="img/search.png" alt=""></a>
-                    </div>
+
+            <div class="header-logo">
+                <img src="img/logo.png">
+            </div>
+
+            <div class="header-search">
+                <a href="#" class="search-button">Search</a>            
+            </div>
         </div>
     </header>
-    <section class="content-top">
+
+    <main id="main">
         <div class="wrapper">
-                <div class="home-container">
-                    <a href="#"><img src="img/slide-1.jpg"alt=""></a>
-                <div class="home-subtitle">home</div>
-                <h1 class="home-title">Buster<br>Bulb</h1>
-                <div class="home-container-text">
-                    The first designer<br>
+            <section class="content-top">
+                <div class="content-name">Home</div>
+                <h1 class="content-title">
+                    Buster<br>
+                    Bulb
+                </h1>
+                <div class="content-text">The first designer<br>
                     LED bulb, finished<br> 
                     in gold glass.
                 </div>
-                <button class="home-container-button"><a href="#">Read more</a></button>
+                <a href="#" class="link">Read more</a>
+            </section>
+
+            <section class="content-left">
+                <div class="content-left-name">Accessories</div>
+                <h2 class="content-left-title">Peak</h2>
+                <div class="content-left-text">A playful pouch<br>
+                    with a trick up its<br> 
+                    sleeve
+                </div>
+                <a href="#" class="link">Read more</a>
+            </section>
+
+            <section class="content-right">
+                <h2 class="content-right-title">Good Things</h2>
+                <div class="content-right-text">...<br>
+                come to those who sign up<br>
+                for our newsletter.</div>
+                <form action="mailto:liliavakshauskas@gmail.com" class="email-subscribe" name="email-subscribe" method="post" enctype="text/plain">
+                    <input type="email" placeholder="Your email" name="email" class="email" autocomplete="off"><br>
+                    <input type="submit" value="Subscribe" name="submit" class="submit">
+                </form>
+                <div class="content-right-second-text">
+                    We respect your privacy and we won’t<br>
+                    share your information.
+                </div>
+            </section>
+
+            <section class="cameras-Leica-M">
+                <div class="subtitle-cameras">Cameras</div>
+                <h3 class="Leica-M-title">Leica M</h3>
+                <a href="#" class="review-button">Review</a>
+            </section>
+
+            <section class="phone-on-stand">
+                <div class="subtitle-phone">Sound</div>
+                <h3 class="trobla-amplifier-title">Trobla<br>
+                    Amplifier
+                </h3>
+                <a href="#" class="review-button">Review</a>
+            </section>
+
+            <section class="cameras-leica-dlux">
+                <div class="subtitle-cameras-two">Cameras</div>
+                <h3 class="leica-dlux-title">Leica D-Lux</h3>
+                <div class="leica-dlux-text">Limited-edition DIesel<br>
+                    collaboration
+                </div>
+                <a href="#" class="link">Read more</a>
+            </section>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="copyright">Copyright DMT</div>
+            <div class="social">
+                <a href="#" class="footer-social-icon"><img src="img/facebook.png"></a>
+                <a href="#" class="footer-social-icon"><img src="img/twitter.png"></a>
             </div>
         </div>
-</section>
-        <section class="content-left">
-            <div class="wrapper">
-                <div class="content-title-left">
-                    <a href="#"><img src="img/slide-2.jpg"alt=""></a>
-                    <div class="content-subtitle">accessories</div>
-                    <h2 class="peak-title">Peak</h2>
-                    <p class="content-text-left">
-                        A playful pouch<br>
-                        with a trick up its sleeve</p>
-                <button class="content-container-button"href="#">Read more</a></button>
-             </div>
-
-            <div class="content-right">
-                <h2 class="content-title-right">Good Things</h2><br>
-                <div class="threepoint">...</div>
-                <p class="content-text-right">come to those who sign up<br>
-                    for our newsletter.</p>
-                    <div class="content-right-email">
-                    <input type="email"value="Your email">
-                    </div>
-                    <div class="content-right-subscribe">
-                    <a href="#">Subscribe</a>
-                    </div>
-                <p class="content-right-text-under">We respect your privacy and we won’t<br>
-                    share your information.</p>
-             </div>
-            </div>
-    </section>
-        <section class="multimedia">
-            <div class="wrapper">
-                <div class="cameras-Leica-M">
-                    <a href="#"><img src="img/slide-3.png"alt=""></a>
-                    <p class="subtitle-cameras">cameras</p>
-                    <h3 class="Leica-M-title">Leica M</h3>
-                    <button class="review-button"><a href="#">Review</a></button>
-                </div>
-                <div class="phone-on-stand">
-                    <a href="#"><img src="img/slide-4.png"alt=""></a>
-                    <p class="subtitle-phone">sound</p>
-                    <h3 class="trobla-amplifier-title">
-                        Trobla<br>
-                        Amplifier</h3>
-                        <button class="review-button-two"><a href="#">Review</a></button>
-                </div>
-                <div class="cameras-leica-dlux">
-                    <a href="#"><img src="img/slide-5.png"alt=""></a>
-                    <p class="subtitle-cameras-two">cameras</p>
-                    <h3 class="leica-dlux-title">Leica D-Lux</h3>
-                        <p class="leica-dlux-text">Limited-edition Dlesel<br>collaboration</p>
-                        <button class="read-more-button"><a href="#">Read more</a></button>
-                </div>
-            </div>
-        </section>
-        <footer id ="footer">
-            <div class="wrapper">
-                <section class="corpyright">
-                    <p>Copyright DMT</p>
-                </section>
-                <section class="social-media">
-                    <div class="facebook-media">
-                        <a href="#"><img src="img/facebook.png"alt=""></a>
-                    </div>
-                    <div class="twitter-media">
-                        <a href="#"><img src="img/twitter.png"alt=""></a>
-                    </div>
-                </section>
-            </div>
-        </footer>
+    </footer>  
 
 
 
